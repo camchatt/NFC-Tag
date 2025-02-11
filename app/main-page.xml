@@ -1,0 +1,21 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="NFC Writer" icon="" />
+
+    <StackLayout class="p-4 space-y-4">
+        <Label text="NFC Contact Writer" class="text-2xl font-bold text-center" />
+        
+        <StackLayout class="space-y-2">
+            <Label text="Name:" class="text-lg" />
+            <TextField text="{{ name }}" hint="Enter your name" class="p-2 border rounded" />
+        </StackLayout>
+
+        <StackLayout class="space-y-2">
+            <Label text="Email:" class="text-lg" />
+            <TextField text="{{ email }}" hint="Enter your email" keyboardType="email" class="p-2 border rounded" />
+        </StackLayout>
+
+        <Button text="Write to NFC Tag" tap="{{ writeTag }}" class="bg-blue-500 text-white p-4 rounded-lg" />
+        
+        <Label text="{{ status }}" class="text-lg text-center text-gray-600" textWrap="true" />
+    </StackLayout>
+</Page>

@@ -1,0 +1,26 @@
+{
+  "name": "my-nfc-project",
+  "version": "1.0.0",
+  "description": "Write unique code to NFC using NativeScript",
+  "keywords": [],
+  "author": "Cammy Cam",
+  "license": "ISC",
+  "main": "app/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nativescript/core": "^8.8.3",
+    "nativescript-nfc": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.8.6",
+    "@nativescript/webpack": "^4.1.0",
+    "npm": "^11.1.0",
+    "sass": "^1.84.0",
+    "sass-loader": "^16.0.4",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
